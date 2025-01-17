@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Assignment - Travel Locations
 
-## Getting Started
+This is a frontend application built as part of the Detrator Frontend Next.js Hiring Assignment. The application displays a list of travel locations, showcasing their details in a responsive, user-friendly design.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Displays a list of travel destinations with key details such as title, address, rating, price, etc.
+- Includes a simple, responsive layout with MUI components.
+- Each location card features a "Follow" button to simulate interaction.
+- Designed with responsiveness in mind, ensuring good usability across devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: The React framework for building the app.
+- **Material UI (MUI)**: Used for UI components and layout.
+- **CSS (via MUI's styling solution)**: For styling the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   `git clone https://github.com/lakhan0105/detrator-assignment.git`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate into the project folder:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Install the dependencies:
+   `npm install`
 
-## Deploy on Vercel
+4. Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Visit `http://localhost:3000` in your browser to view the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+The live version of the app can be accessed here: https://detrator-assign.netlify.app/
+
+## Notes
+
+- All screens are responsive.
+- No CSS/SCSS libraries were used, except for MUI.
+- Creativity was applied to the color scheme as per the assignment guidelines.
